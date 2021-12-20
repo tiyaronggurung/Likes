@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Network</h1>
+        </div>
+        <h1 class="centered">Your Feed</h1>
+        <div class="row">
+            <div class="left-bar">
+                <div class="user">
+                    <a href="#"><img src="user.png" alt="user" class="avatar-m"></a>
+                    <p><a href="#">Add an avatar</a></p>
+                    <h2>Tiyarong Gurung</h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="post">
+                    <div class="first">
+                        <h2>Rakesh Johnson</h2>
+                        <div class="likes">
+                            <span id="post-1">0 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me <br>know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="post">
+                    <div class="second">
+                        <h2>Amrit Smith</h2>
+                        <div class="likes">
+                            <span id="post-2">0 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="post">
+                    <div class="third">
+                        <h2>John Anderson</h2>
+                        <div class="likes">
+                            <span id="post-3">0 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a>. <br>Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
